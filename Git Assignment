@@ -1,0 +1,20 @@
+Git Assignment1
+     mkdir assignment1
+     cd assignment1 /
+     ls
+     touch code.txt log.txt output.txt
+     ls
+     git init
+     git status
+     git commit -m "commiting code.txt and output.txt"
+     git add code.txt output.txt 
+     git status
+     git commit -m "commiting code.txt and output.txt"
+     git status
+     git commit -m "first commit"
+     git branch -M main
+     git remote add origin https://github.com/shraddhafarkade/assignment-1.git
+     git remote -v
+     git branch
+     git push origin master
+     git push origin main  
