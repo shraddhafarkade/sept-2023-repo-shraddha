@@ -1,0 +1,32 @@
+============Assignment 1 docker=============
+  sudo apt update
+  sudo apt install docker.io
+  docker -v
+  sudo docker pull ubuntu
+  sudo docker image
+  sudo docker images
+  sudo docker run -itd ubuntu -p 80:80
+  sudo docker ps
+  sudo docker rm 4f1939713287
+  sudo docker ps -a
+  sudo docker ps
+  sudo docker exec -it 1cf9b51ec2bb bash
+=============Container========
+  apt update
+  apt install apache2
+  service apache2 status
+  service apache2 start
+  service apache2 status
+
+=============Assignement 2 docker==========
+ sudo docker ps
+     sudo docker commit 1cf9b51ec2bb assignment2
+     sudo docker images
+     sudo docker run -itd -p 81:80 assignment2
+     sudo docker ps
+     sudo docker exec -it 612431d85ca2 bash
+
+=============Container===========
+     service apache2 status
+     service apache2 start
+     service apache2 status
