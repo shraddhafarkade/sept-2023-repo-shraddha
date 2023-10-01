@@ -19,3 +19,35 @@ Git Assignment1
      git branch
      git push origin master
      git push origin main  
+Git Assignment--2
+     1  mkdir assignment2
+    2  cd assignment2
+    3  touch feature1.txt feature2.txt
+    4  ls
+    5  git init
+    6  ls
+    7  git add feature1.txt feature2.txt 
+    8  git status
+    9  git commit -m "commiting feature.txt files"
+   10   git branch
+   11  git branch develop
+   12  git branch feature1
+   13  git branch feature2
+   14  git branch
+   15   git checkout develop
+   16  git branch
+   17  touch develop.txt
+   18   ls
+   19  git status
+   20  git stash -u
+   21  ls
+   22  git checkout feature1
+   23  touch new.txt
+   24  git add new.txt 
+   25  git commit -m "commiting new.txt"
+   26  git checkout develop 
+   27   ls
+   28  git stash pop
+   29  ls
+   30   git add develop.txt 
+   31  git commit -m "commiting develop.txt"
