@@ -51,3 +51,35 @@ Git Assignment--2
    29  ls
    30   git add develop.txt 
    31  git commit -m "commiting develop.txt"
+Git Assignment--4
+     mkdir assignment4
+     cd assignment4/
+     git init
+     touch master.txt
+     git add  master.txt 
+     git commit -m "commiting master.txt"
+     git branch
+     git branch private
+     git branch public1
+     git branch public2
+     git branch
+     git checkout public1
+     touch public1.txt
+     git add public1.txt 
+     git commit -m "commiting public1.txt"
+     git checkout master
+     git merge public1
+     git merge public2
+     git checkout master
+     git checkout private 
+     ls
+    nano master.txt 
+    git status
+    git add master.txt 
+    git commit -m "commiting modified master.txt"
+    git checkout public1
+    git merge private
+    git checkout public2
+    git merge private
+    git checkout master 
+    git merge private
